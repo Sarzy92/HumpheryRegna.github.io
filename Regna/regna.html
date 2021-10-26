@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./regna.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        intergrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    
+</header>
+
+<body>
+    <section class="home" id="home">
+        <header class="regna">
+            <div class="container">
+                <div class="navbar" id="nav">
+                    <div class="regna-logo">
+                        <a href="regna.html" target="_blank" class="reg">
+                            <img src="img/logo.png" alt=REGNA class="logo" />
+                        </a>
+                    </div>
+                    <div>
+                        <div onclick="toggleNav()" class="hamburger"><i class="fas fa-bars"></i></div>
+                        
+                                <!-- <a href="#"><span>DROP DOWN</span><i class="fas fa-chevron-down"></i></a>            
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Drop 1</a></li>
+                                            <li><a href="#"><span>Deep Drop Down</span><i class="fas fa-chevron-right"></i></a>
+                                                <ul>
+                                                    <li><a href="#">Deep Drop 1</a></li>
+                                                    <li><a href="#">Deep Drop 2</a></li>
+                                                    <li><a href="#">Deep Drop 3</a></li>
+                                                    <li><a href="#">Deep Drop 4</a></li>
+                                                    <li><a href="#">Deep Drop 5</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Drop 2</a></li>
+                                            <li><a href="#">Drop 3</a></li>
+                                            <li><a href="#">Drop 4</a></li>
+                                        </ul>  -->
+                                <div class="dropdown">
+                                    <button class="dropbtn">Dropdown <i class="fas fa-chevron-down"></i></button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Drop 1</a>
+                                        <a href="#">Deep Drop Down</a>
+                                        <a href="#">Drop 2</a>
+                                        <a href="#">Drop 3</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="nav-scroll" href="#contact-us">CONTACT-US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+        <div class="container">
+            <div class="welcome">
+                <h1>WELCOME TO REGNA</h1>
+                <h2>We are team of talented designers making websites with Boostrap</h2>
+                <div class="btn">
+                    <a href="about-us" class="btn-get-started">GET STARTED</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==== About Section ==== -->
+
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <div class="about-container">
+                    <div class="about-header">
+                        <h2 class="title">Few Words About Us</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
+                            commodo consequat.
+                        </p><br>
+                        
+                        <div class="about-box">
+                            <div class="icon-box"><i class="fas fa-briefcase"></i>
+                            </div>
+                                <div class="about-det">
+                                    <h4 class="a-title"><a href="">Eiusmod Tempor</a></h4>
+                                        <p class="dscription">  Et harum quidem rerum facilis est et expedita distinctio. Nam libero<br>
+                                                                tempore, cum soluta nobis est eligendi
+                                        </p>
+                                </div>
+                        </div><br>
+
+                        <div class="about-box">
+                            <div class="icon-box"><i class="fas fa-image"></i>
+                            </div>
+                                <div class="about-det">
+                                    <h4 class="a-title"><a href="">Magni dolores</a></h4>
+                                        <p class="dscription">  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui<br>
+                                                                officia deserunt mollit anim id est laborum
+                                        </p>
+                                </div>
+                        </div><br>
+
+                        <div class="about-box">
+                            <div class="icon-box"><i class="fas fa-image"></i>
+                            </div>
+                                <div class="about-det">
+                                    <h4 class="a-title"><a href="">Dolor Sitema</a></h4>
+                                        <p class="dscription">  Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br> 
+                                                                ex ea commodo consequat tarad limino ata
+                                        </p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="about-img"><img src="./img/about-img.jpg" class="ab"/></div>    
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== Facts === -->
+
+    <section id="facts">
+        <div class="container">
+            <div class="facts-color"><br><br>
+                <div class="facts-header">
+                    <h3 class="fact-title">FACTS</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                </div>  
+            <div class="facts-fig">
+                <div class="fact-det">
+                    <h2 class="fact-num">232</h2>
+                    <p>Clients</p>
+                </div>
+
+                <div class="fact-det">
+                    <h2 class="fact-num">521</h2>
+                    <p>Projectss</p>
+                </div>
+
+                <div class="fact-det">
+                    <h2 class="fact-num">1463</h2>
+                    <p>Hours of Support</p>
+                </div>
+
+                <div class="fact-det">
+                    <h2 class="fact-num">15</h2>
+                    <p>Hard Workers</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === Servicess ===  -->
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <h2>SERVICES</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="service-grid">
+                <div class="serve-gd">
+                    <div class="serv-icon"><i class="fas fa-desktop"></i></div>
+                        <h4 class="services-hd">LOREM IPSUM</h4> 
+                        <p> Voluptatum deleniti atque corrupti quos<br> 
+                            dolor  hc45yrces et quas molestias excepturi sint<br> 
+                            occaecati cupiditate non provident</p>                         
+                    </div>
+        
+                <div class="serve-gd">    
+                    <div class="serv-icon"><i class="far fa-chart-bar"></i></div>
+                        <h4 class="services-hd">DOLOR SITEMA</h4> 
+                        <p> Minim veniam, quis nostrud exercitation<br> 
+                            ullamco laboris nisi ut aliquip ex ea commodo<br> 
+                            consequat tarad limino ata</p>                         
+                </div>
+                
+                <div class="serve-gd">
+                    <div class="serv-icon"><i class="fas fa-paper-plane"></i></div>
+                        <h4 class="services-hd">SED UT PERSPICIATIS</h4> 
+                        <p> Duis aute irure dolor in reprehenderit in<br> 
+                            voluptate velit esse cillum dolore eu fugiat<br> 
+                            nulla pariatur</p>                         
+                </div>
+
+                <div class="serve-gd">
+                    <div class="serv-icon"><i class="far fa-image"></i></div>
+                        <h4 class="services-hd">MAGNI DOLORES</h4> 
+                        <p> Excepteur sint occaecat cupidatat non<br> 
+                            proident, sunt in culpa qui officia deserunt<br> 
+                            mollit anim id est laborum</p>                         
+                </div>
+
+                <div class="serve-gd">                 
+                    <div class="serv-icon"><i class="fas fa-binoculars"></i></div>
+                        <h4 class="services-hd">NEMO ENIM</h4> 
+                        <p> At vero eos et accusamus et iusto odio<br> 
+                            dignissimos ducimus qui blanditiis<br>
+                            praesentium voluptatum deleniti atque</p>                         
+                </div>
+              
+                <div class="serve-gd">
+                    <div class="serv-icon"><i class="fas fa-briefcase"></i></div>
+                        <h4 class="services-hd">EUISMOD TEMPOR</h4> 
+                        <p> Et harum quidem rerum facilis est et expedita<br> 
+                            distinctio. Nam libero tempore, cum soluta<br> 
+                            nobis est eligendi</p>                         
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === Call to Action === -->
+
+    <section class="call-to-action">
+        <div class="container">
+            <div class="frame-work">
+                <div class="frame-header">
+                    <h2>Call To Action</h2>
+                </div>
+                <div class="on-frame">
+                    <div class="frame">
+                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br> 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="frame-btn">
+                        <a href="#">CALL TO ACTION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === Portfolio === -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="port">
+                    <div class="portfolio-head">
+                        <h2 class="potate">PORTFOLIO</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                    </div>
+
+                    <div class="Portfolio-sect">
+                        <div class="port-btn">
+                            <div class="pfb">
+                                <a href="#">All</a>
+                            </div>
+                            <div class="pfb">
+                                <a href="#">App</a>
+                            </div>
+                            <div class="pfb">
+                                <a href="#">Card</a>
+                            </div>
+                            <div class="pfb">
+                                <a href="#">Web</a>
+                            </div>
+                    </div>
+                    <div class="port-grid">
+                        <img src="img/portfolio/portfolio-1.jpg" alt="portfolio 1" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-2.jpg" alt="portfolio 2" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-3.jpg" alt="portfolio 3" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-4.jpg" alt="portfolio 4" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-5.jpg" alt="portfolio 5" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-6.jpg" alt="portfolio 6" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-7.jpg" alt="portfolio 7" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-8.jpg" alt="portfolio 8" class="pt-img"/>
+                        <img src="img/portfolio/portfolio-9.jpg" alt="portfolio 9" class="pt-img"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === Team ===  -->
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="team-lead">
+                <h2 class="team-head">TEAM</h2>
+                <p class="team-des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+            <div class="team-flex">
+                <div class="team-a">
+                    <img src="./img/team-1.jpg" alt="paul-walker" class="walker"/>
+                    <h3 class="name">Walker White</h3>
+                    <p>Chief Executive Officer</p>
+                    <div class="team-icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="team-a">
+                    <img src="./img/team-2.jpg" alt="sarah-jhinson" class="walker"/>
+                    <h3 class="name">Sarah Jhinson</h3>
+                    <p>Product Manager</p>
+                    <div class="team-icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="team-a">
+                    <img src="./img/team-3.jpg" alt="william-anderson" class="walker"/>
+                    <h3 class="name">William Anderson</h3>
+                    <p>CTO</p>
+                    <div class="team-icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+
+                <div class="team-a">
+                    <img src="./img/team-4.jpg" alt="Amanda-jepson" class="walker"/>
+                    <h3 class="name">Amanda Jepson</h3>
+                    <p>Account</p>
+                    <div class="team-icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === CONTACT-US === -->
+
+    <section class="contact-us" id="contact-us">
+        <div class="container">
+            <div class="all-contacts">
+                <div class="contact">
+                <h1 class="contact-name">CONTACT</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                </div>
+              <div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sng!4v1626298686790!5m2!1sen!2sng" ></iframe></div>
+                <div class="contact-det">
+                    <div class="contact-details">
+                        <div class="contact-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            <p>A108 Adam Street<br>New York, NY 535022</p>
+                        </div><br>
+                        <div class="contact-1">
+                                <i class="far fa-envelope"></i>
+                            <p>info@example.com</p>
+                        </div><br>
+                        <div class="contact-1">
+                                <i class="fas fa-phone-alt"></i>
+                            <p>+1 5589 55488 55</p>
+                        </div><br>
+                    
+                            <div class="contact-icon">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                        <div class="contact-gd">
+                            <form action="/action_page.php">
+                                <label for="fname"></label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name">
+                        
+                                <label for="email"></label><br>
+                                <input type="text" placeholder="Your Email" name="email" required>
+
+                                <label for="subject"></label><br>
+                                <input type="text" id="subject" name="subject" placeholder="Subject">
+
+                                <label for="message"></label><br>
+                                <textarea id="subject" name="subject" placeholder="message"></textarea>
+                            
+
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- === Footer === -->
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>REGNA</strong>. All Rights Reserved
+            </div>
+            <div class="boost">Designed by <a href="https://bootstrapmade.com/"> Boostrapmade</a></div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
